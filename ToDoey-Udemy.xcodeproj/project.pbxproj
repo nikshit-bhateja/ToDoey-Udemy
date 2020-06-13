@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		589FB4DF24950D6700435DAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FB4DE24950D6700435DAB /* AppDelegate.swift */; };
-		589FB4E124950D6700435DAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FB4E024950D6700435DAB /* ViewController.swift */; };
+		589FB4E124950D6700435DAB /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589FB4E024950D6700435DAB /* ItemViewController.swift */; };
 		589FB4E424950D6700435DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589FB4E224950D6700435DAB /* Main.storyboard */; };
 		589FB4E724950D6700435DAB /* ToDoey_Udemy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 589FB4E524950D6700435DAB /* ToDoey_Udemy.xcdatamodeld */; };
 		589FB4E924950D6900435DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589FB4E824950D6900435DAB /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		589FB4DB24950D6700435DAB /* ToDoey-Udemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDoey-Udemy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		589FB4DE24950D6700435DAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		589FB4E024950D6700435DAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		589FB4E024950D6700435DAB /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		589FB4E324950D6700435DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		589FB4E624950D6700435DAB /* ToDoey_Udemy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoey_Udemy.xcdatamodel; sourceTree = "<group>"; };
 		589FB4E824950D6900435DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				589FB4DE24950D6700435DAB /* AppDelegate.swift */,
-				589FB4E024950D6700435DAB /* ViewController.swift */,
+				589FB4E024950D6700435DAB /* ItemViewController.swift */,
 				589FB4E224950D6700435DAB /* Main.storyboard */,
 				589FB4E824950D6900435DAB /* Assets.xcassets */,
 				589FB4EA24950D6900435DAB /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				589FB4E124950D6700435DAB /* ViewController.swift in Sources */,
+				589FB4E124950D6700435DAB /* ItemViewController.swift in Sources */,
 				589FB4DF24950D6700435DAB /* AppDelegate.swift in Sources */,
 				589FB4E724950D6700435DAB /* ToDoey_Udemy.xcdatamodeld in Sources */,
 			);
@@ -287,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DFJ92ZS92X;
 				INFOPLIST_FILE = "ToDoey-Udemy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DFJ92ZS92X;
 				INFOPLIST_FILE = "ToDoey-Udemy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
