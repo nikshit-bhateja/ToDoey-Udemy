@@ -10,7 +10,7 @@ import UIKit
 
 class ItemViewController: UITableViewController {
     
-    let itemArray = ["Find Mike", "Buy Eggos", "Destroy Demogorgon"]
+    var itemArray = ["Find Mike", "Buy Eggos", "Destroy Demogorgon"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,7 +50,31 @@ class ItemViewController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
+    //MARK: - Add New Item
     
+    @IBAction func AddButtonPressed(_ sender: UIBarButtonItem) {
+        
+        var textFeild = UITextField()
+        
+        let alert = UIAlertController(title: "Add new item", message: "", preferredStyle: .alert)
+        
+        let action = UIAlertAction(title: "Add", style: .default) { (action) in
+            //What will happen when the user tap the add button
+            self.itemArray.append(textFeild.text!)
+            
+            self.tableView.reloadData()
+        }
+        
+        alert.addAction(action)
+        
+        alert.addTextField { (alertTextField) in
+            alertTextField.placeholder =  "Create Item"
+            textFeild = alertTextField
+        }
+        
+        present(alert, animated: true, completion: nil)
+        
+    }
     
     
     
